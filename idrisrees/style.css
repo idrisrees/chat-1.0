@@ -1,0 +1,16 @@
+.link {
+    display: inline-block;
+    position: relative;
+    color: gray;
+    text-decoration: none;
+}
+
+.link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    text-decoration: none;
+}
+
+.lorem {
+    font-family: 'Flow Rounded', cursive;
+}
